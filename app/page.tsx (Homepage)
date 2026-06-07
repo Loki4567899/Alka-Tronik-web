@@ -1,0 +1,22 @@
+import Hero from "@/components/Hero";
+
+export default function Home() {
+  return (
+    <>
+      <Hero />
+
+      <section className="max-w-7xl mx-auto py-20 px-6">
+
+        <h2 className="text-4xl font-bold">
+          GARAZVIYA
+        </h2>
+
+        <p className="mt-4 text-zinc-400">
+          Stream the latest project from
+          Alka Tronik.
+        </p>
+
+      </section>
+    </>
+  );
+}
